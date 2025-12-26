@@ -82,7 +82,7 @@ def main():
     driver.quit()
 
     df_master = pd.DataFrame(all_data)
-    df_master.to_csv("nfl_knee_acl_injuries_last_5_seasons.csv", index=False)
+    df_master.to_csv("nfl_knee_acl_injuries_2025.csv", index=False)
 
     print(f"\n✅ Master CSV saved with {len(df_master)} total injuries")
 
